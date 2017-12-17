@@ -1,0 +1,53 @@
+a {
+	color: black;
+}
+
+.logo{
+	display:flex;
+	justify-content: center;
+	margin:0 auto;
+}
+.searchBar{
+
+	display:flex;
+	justify-content: center;
+	margin-bottom: 20px;
+
+}
+.button{
+	margin-right:10px;
+	margin-left:10px;
+	background-color:gray;
+	border:none;
+	padding: 15px 25px;
+
+}
+
+.footer{
+	position: fixed;
+	bottom:0;
+	background-color: gray;
+	left:0;
+	width:100%;
+	color:white;
+	
+}
+ul{
+	list-style-type: none;
+	margin:0;
+	padding:0;
+	overflow: hidden;
+}
+li{
+	float: left;
+}
+li a{
+	display: block;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+li a:hover{
+	text-decoration: underline;
+}
